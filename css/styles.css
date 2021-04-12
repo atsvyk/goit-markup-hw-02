@@ -18,7 +18,7 @@ ul{
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 color: var(--primary-text-color);
 }
 
@@ -37,10 +37,19 @@ color: var(--subtitle-color);
 }
 
 .nav-link {
+font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--secondary-title-color);
+}
+
+.port-lnk {
+  color: #2196F3;
+}
+
+.stud-lnk {
+  color: #2196F3
 }
 
 
@@ -63,8 +72,7 @@ line-height: 1.88;
 text-align: center;
 letter-spacing: 0.06em;
 color: var(--secondary-text-color);
-width: 200px;
-height: 50px;
+padding: 6px 22px;
 left: 700px;
 top: 430px;
 background: var(--accent-color);
@@ -153,7 +161,7 @@ font-style: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: rgba(255, 255, 255, 0.6);;
 }
 
 .little-button {
@@ -162,8 +170,7 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-title-color);
-width: 73px;
-height: 38px;
+padding: 6px 22px;
 left: 495px;
 top: 174px;
 background: var(--accent-color);
